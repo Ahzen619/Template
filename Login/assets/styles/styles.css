@@ -12,11 +12,8 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: #ffe099;
-  background-image: radial-gradient(
-      at 84% 72%,
-      hsla(292, 75%, 69%, 1) 0px,
-      transparent 50%
-    ),
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,97,255,1) 29%, rgba(0,212,255,1) 100%);
+
     radial-gradient(at 3% 93%, hsla(157, 63%, 70%, 1) 0px, transparent 50%),
     radial-gradient(at 100% 70%, hsla(109, 80%, 70%, 1) 0px, transparent 50%),
     radial-gradient(at 14% 33%, hsla(305, 67%, 63%, 1) 0px, transparent 50%),
@@ -32,7 +29,7 @@ body {
 .login-wrapper {
   width: 27rem;
   height: 45rem;
-  background: #fff;
+  background: #FFFFFF;
   border-radius: 20px;
   padding: 15px;
 }
@@ -108,14 +105,6 @@ button {
   border-radius: 20px;
   text-transform: uppercase;
   font-weight: 600;
-  background: rgb(245, 182, 175);
-  background: linear-gradient(
-    90deg,
-    rgba(245, 182, 175, 1) 0%,
-    rgba(214, 130, 224, 1) 100%,
-    rgba(136, 207, 237, 1) 100%,
-    rgba(133, 219, 192, 1) 100%
-  );
   color: #fff;
 }
 
@@ -153,13 +142,7 @@ button {
   text-transform: uppercase;
   font-weight: 600;
   background: rgb(245, 182, 175);
-  background: linear-gradient(
-    90deg,
-    rgba(245, 182, 175, 1) 0%,
-    rgba(214, 130, 224, 1) 100%,
-    rgba(136, 207, 237, 1) 100%,
-    rgba(133, 219, 192, 1) 100%
-  );
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,97,255,1) 29%, rgba(0,212,255,1) 100%);
   color: #fff;
 }
 .third-party-signup {
